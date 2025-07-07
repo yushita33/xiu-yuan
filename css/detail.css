@@ -351,6 +351,7 @@ body {
 	position: absolute;
 	top: 0;
 	right: 5%;
+	width: 400px;
 	height: auto;
 	transform: rotate(-15deg);
 	margin: 2rem auto;
