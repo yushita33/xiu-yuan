@@ -186,9 +186,13 @@ body {
     }
 
     .about-box,
-    .about-slogan,
     .contact-info {
-        padding: 0 5px;
+        padding: 0 10px;
+    }
+
+    .about-text {
+        width: auto;
+        padding-left: 0;
     }
 
     .about-box {
