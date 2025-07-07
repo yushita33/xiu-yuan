@@ -202,30 +202,32 @@
     <!-- Swiper JS(swiper bundle網上下載下來官方套件) -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js" defer></script>
     <script>
-        const swiper = new Swiper('.swiper', {
-            loop: true, //重複滑動
-            slidesPerView: 1,
-            spaceBetween: 30,
-            navigation: {
-                nextEl: '.swiper-button-next',
-                prevEl: '.swiper-button-prev',
-            },
-            pagination: {
-                el: '.swiper-pagination',
-                clickable: true, //可點擊小點點
-            },
-            autoplay: {
-                delay: 5000,
-                disableOnInteraction: false 
-            },
-            breakpoints: {
-                768: {
-                    slidesPerView: 3 //768以上可以呈現三張
+        window.addEventListener('load', () => {
+            const swiper = new Swiper('.swiper', {
+                loop: true, //重複滑動
+                slidesPerView: 1,
+                spaceBetween: 30,
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
                 },
-                480: {
-                    slidesPerView: 1
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true, //可點擊小點點
+                },
+                autoplay: {
+                    delay: 5000,
+                    disableOnInteraction: false 
+                },
+                breakpoints: {
+                    768: {
+                        slidesPerView: 3 //768以上可以呈現三張
+                    },
+                    480: {
+                        slidesPerView: 1
+                    }
                 }
-            }
+            });
         });
     </script>
 </body>
