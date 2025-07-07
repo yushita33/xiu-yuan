@@ -150,7 +150,7 @@ function makePanel(ID, array) {
 		const img = document.createElement("img");
 		img.src = menu.imgPath;
 		img.width = IMG_SIZE;
-		img.height = IMG_SIZE;
+		// img.height = IMG_SIZE;
 		containerDiv.appendChild(img);
 		panelDiv.appendChild(containerDiv);
 

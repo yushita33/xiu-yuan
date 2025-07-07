@@ -277,7 +277,6 @@ body {
 
 .img-container img {
 	max-height: 100%;
-	height: auto;
 	object-fit: contain;
 	object-position: center;
 }
